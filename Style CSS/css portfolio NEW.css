@@ -223,7 +223,7 @@ footer hr {
 /*Fotter 👆*/
 
 /* CSS for screens smaller than 620px */
-@media (max-width: 620px) {
+@media (max-width: 625px) {
   header {
     display: flex;
     flex-direction: column;
