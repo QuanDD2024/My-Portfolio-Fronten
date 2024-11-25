@@ -238,11 +238,7 @@ footer hr {
     padding: 0;
   }
 
-  .links ul li {
-    margin: 5px 0;
-  }
-
-    .links {
+    .links a {
     font-size:1rem;
     
   }
