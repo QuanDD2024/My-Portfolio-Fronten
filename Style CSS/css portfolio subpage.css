@@ -10,7 +10,7 @@ body {
 }
 
 .body-section {
-  max-width: 68rem;
+  max-width: 75rem;
   background-color: #f9e6c5;
   border-radius: 3rem;
 }
@@ -192,28 +192,13 @@ footer hr {
   width: 100%;
 }
 
-@media (max-width: 625px) {
+@media (max-width: 620px) {
   body {
     max-width: 100%;
     margin: 0;
     padding: 0;
   }
 
-  main {
-  padding: 2rem 1rem;
-}
-
-  .links ul {
-    display: flex;
-
-    align-items: center;
-    padding: 0;
-  }
-
-    .links a {
-    font-size:1rem;
-      font-weight:500
-        
   .body-section {
     border-radius: 0;
     padding: 1rem;
@@ -224,6 +209,8 @@ footer hr {
     padding: 1rem;
   }
 
+  main{padding: 2rem 1rem};
+
   header img {
     width: 5rem;
   }
@@ -233,6 +220,14 @@ footer hr {
     padding: 1rem 2rem;
   }
 
+  .links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 2px;
+    display: inline-block;
+  }
   .Card-content {
     flex-direction: column;
     gap: 0.5rem;
@@ -263,7 +258,7 @@ footer hr {
     padding: 1rem;
   }
 
-  footer p{font-size:0.8rem}
+  footer p{font-size: 0.8rem;}
 
   .contact-icons img {
     width: 2rem;
