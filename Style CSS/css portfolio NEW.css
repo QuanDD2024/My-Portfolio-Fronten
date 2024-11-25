@@ -224,7 +224,8 @@ footer p{font-size:0.8rem}
 
 /*Fotter 👆*/
 
-/* CSS for screens smaller than 620px */
+/* CSS for screens smaller than 625px */
+
 @media (max-width: 625px) {
   header {
     display: flex;
@@ -232,14 +233,15 @@ footer p{font-size:0.8rem}
     align-items: center;
     padding: 2rem 1rem 1rem 1rem;
   }
-header a{padding-bottom:1rem}
+  
+header a{padding-bottom:1rem;}
+  
   main {
   padding: 1rem 0;
 }
 
   .links ul {
     display: flex;
-
     align-items: center;
     padding: 0;
   }
@@ -247,7 +249,7 @@ header a{padding-bottom:1rem}
     .links a {
     font-size:1rem;
       font-weight:500
-    
+   
   }
 
     .links li {
