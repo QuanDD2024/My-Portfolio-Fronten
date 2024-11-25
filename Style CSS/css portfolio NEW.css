@@ -243,6 +243,10 @@ footer hr {
     
   }
 
+    .links li {
+    padding:0;
+    
+  }
 
   .hero-section {
     flex-direction: column;
