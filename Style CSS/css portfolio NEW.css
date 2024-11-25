@@ -216,16 +216,13 @@ footer hr {
   width: 50%;
   margin: 1rem auto;
 }
-
-footer p{font-size:0.8rem}
 .end-image {
   width: 100%;
 }
 
 /*Fotter 👆*/
 
-/* CSS for screens smaller than 625px */
-
+/* CSS for screens smaller than 620px */
 @media (max-width: 625px) {
   header {
     display: flex;
@@ -233,28 +230,30 @@ footer p{font-size:0.8rem}
     align-items: center;
     padding: 2rem 1rem 1rem 1rem;
   }
-  
-header a{padding-bottom:1rem;}
-  
+  header a {
+    padding-bottom: 1rem;
+  }
   main {
-  padding: 1rem 0;
-}
+    padding: 1rem 0rem;
+  }
 
   .links ul {
     display: flex;
+
     align-items: center;
     padding: 0;
   }
 
-    .links a {
-    font-size:1rem;
-      font-weight:500
-   
+  .links a {
+    font-size: 1rem;
   }
 
-    .links li {
-    padding:0 6px;
-    
+  .links li {
+    padding: 0;
+  }
+
+  .links a {
+    padding: 0 6px;
   }
 
   .hero-section {
@@ -284,6 +283,10 @@ header a{padding-bottom:1rem;}
     font-size: 1.3rem;
   }
 
+  #Project,
+  #Illustration {
+    padding: 2rem 1rem;
+  }
   .main-image img {
     max-width: 100%;
     height: auto;
@@ -303,6 +306,10 @@ header a{padding-bottom:1rem;}
   }
   footer .contact-icons a {
     margin: 1rem 0;
+  }
+
+  footer p {
+    font-size: 0.8rem;
   }
 
   .Back-to-top {
