@@ -209,7 +209,7 @@ footer hr {
     padding: 1rem;
   }
 
-  main{padding: 2rem 1rem};
+  main{padding: 2rem 0rem};
 
   header img {
     width: 5rem;
