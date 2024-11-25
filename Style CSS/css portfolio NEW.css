@@ -232,7 +232,7 @@ footer p{font-size:0.8rem}
     align-items: center;
     padding: 2rem 1rem 1rem 1rem;
   }
-
+header a{padding-bottom:1rem}
   main {
   padding: 1rem 0;
 }
