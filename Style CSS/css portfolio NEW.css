@@ -231,6 +231,10 @@ footer hr {
     padding: 2rem 1rem 1rem 1rem;
   }
 
+  main {
+  padding: 1rem 0;
+}
+
   .links ul {
     display: flex;
 
@@ -240,11 +244,12 @@ footer hr {
 
     .links a {
     font-size:1rem;
+      font-weight:500
     
   }
 
     .links li {
-    padding:0 4px;
+    padding:0 5px;
     
   }
 
