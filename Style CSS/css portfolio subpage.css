@@ -192,7 +192,7 @@ footer hr {
   width: 100%;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 625px) {
   body {
     max-width: 100%;
     margin: 0;
@@ -209,7 +209,7 @@ footer hr {
     padding: 1rem;
   }
 
-  main{padding: 2rem 0rem;}
+  .subpage{padding: 2rem 0rem;}
 
   header img {
     width: 5rem;
