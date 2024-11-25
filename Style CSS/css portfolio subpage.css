@@ -10,7 +10,7 @@ body {
 }
 
 .body-section {
-  max-width: 75rem;
+  max-width: 68rem;
   background-color: #f9e6c5;
   border-radius: 3rem;
 }
@@ -192,7 +192,7 @@ footer hr {
   width: 100%;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 625px) {
   body {
     max-width: 100%;
     margin: 0;
