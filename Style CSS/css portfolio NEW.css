@@ -216,6 +216,8 @@ footer hr {
   width: 50%;
   margin: 1rem auto;
 }
+
+footer p{font-size:0.8rem}
 .end-image {
   width: 100%;
 }
