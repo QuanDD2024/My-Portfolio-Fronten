@@ -263,6 +263,8 @@ footer hr {
     padding: 1rem;
   }
 
+  footer p{font-size:0.8rem}
+
   .contact-icons img {
     width: 2rem;
   }
