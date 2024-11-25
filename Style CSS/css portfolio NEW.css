@@ -1,0 +1,298 @@
+* {
+  font-family: poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 68rem;
+  margin: 0 auto;
+}
+
+.body-section {
+  max-width: 75rem;
+  background-color: #f9e6c5;
+  border-radius: 3rem 3rem 0 0;
+}
+
+main {
+  padding: 3rem 2rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Pacifico;
+  color: #ff9400;
+}
+
+p {
+  font-size: 1rem;
+  padding-top: 0.3rem;
+  line-height: 1.5;
+  color: #333333;
+}
+
+/*header 👇*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-radius: 3rem 3rem 0 0;
+}
+header img {
+  width: 5rem;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+header img:hover {
+  transform: rotateY(360deg);
+}
+
+.links {
+  background-color: orange;
+  padding: 1rem 2.2rem;
+  border-radius: 3rem;
+}
+.links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links li {
+  padding: 0 1rem;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+
+.links a:hover {
+  border-bottom: solid 0.5px #333333;
+  transition: all 500ms linear;
+  transform: scale(1.05);
+}
+
+/*header 👆*/
+
+/*hero-section 👇*/
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4rem 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  width: 60%;
+}
+
+.content cite {
+  font-size: 1.4rem;
+  font-style: normal;
+  line-height: 1.7;
+  color: #333333;
+}
+
+.main-image {
+  width: 30%;
+}
+
+.main-image img {
+  max-width: 11rem;
+}
+
+.name {
+  padding: 2.5rem 0 0 0;
+}
+
+/*hero-section 👆*/
+
+/*Project 👇*/
+
+#Project {
+  padding: 4rem 2rem;
+}
+
+.Card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.Card-content img {
+  width: 100%;
+  padding-top: 0.5rem;
+  border-radius: 1rem;
+  filter: drop-shadow(2px 2px 2px #a8a8a7) brightness(1.05);
+}
+
+.Card-content p {
+  font-weight: 600;
+  color: #333333;
+}
+
+.Card-content-left {
+  padding-right: 0.5rem;
+}
+
+.Card-content img:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+  transition: all 500ms linear;
+}
+
+/*#Project 👆*/
+
+/*Illustration 👇*/
+
+#Illustration {
+  padding: 4rem 2rem;
+}
+
+/*Illustration 👆*/
+
+/*About-me 👇*/
+
+#About-me {
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+/*#About-me 👆*/
+
+/*Footer 👇*/
+
+footer {
+  text-align: center;
+}
+.Back-to-top {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Pacifico;
+  color: #ff9400;
+}
+
+.Back-to-top:hover {
+  transform: scale(1.05);
+  transition: all 300ms linear;
+}
+
+.contact-icons img {
+  width: 2.5rem;
+}
+
+footer hr {
+  width: 50%;
+  margin: 1rem auto;
+}
+.end-image {
+  width: 100%;
+}
+
+/*Fotter 👆*/
+
+/* CSS for screens smaller than 620px */
+@media (max-width: 620px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
+  .links ul {
+    display: flex;
+
+    align-items: center;
+    padding: 0;
+  }
+
+  .links ul li {
+    margin: 5px 0;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .content cite {
+    font-size: 1.2rem;
+  }
+
+  .content {
+    width: 80%;
+    align-items: center;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .main-image img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 1.5rem;
+  }
+
+  .Card-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .Card-content p {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding-top: 0;
+  }
+  footer .contact-icons a {
+    margin: 1rem 0;
+  }
+
+  .Back-to-top {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+  }
+}
