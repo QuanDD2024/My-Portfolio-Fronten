@@ -114,6 +114,7 @@ header img:hover {
   font-weight: 600;
   color: #333333;
   padding-top: 0;
+  padding-left:1rem
 }
 
 .Card-content-left {
