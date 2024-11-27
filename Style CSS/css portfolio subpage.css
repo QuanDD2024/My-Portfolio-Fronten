@@ -99,7 +99,7 @@ header img:hover {
 .Card-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 1rem;
 }
 
